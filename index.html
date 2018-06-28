@@ -5,6 +5,7 @@
 	<title>苹果官网</title>
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="https://at.alicdn.com/t/font_677614_rl024e9yyhhyqfr.css">
+	<script src="jquery-3.3.1.js"></script>
 </head>
 <body>
 	<div class="head">
@@ -153,34 +154,85 @@
 	</div>
 	<div class="xiabu2">
 		<div class="xiabu2neikuan">
-			<a href="">
-				<div>&nbsp;&nbsp;&nbsp;&nbsp;选购及了解</div>
-				<div>+&nbsp;&nbsp;&nbsp;&nbsp;</div>
+			<a href="javascript:;" class="dianji">
+				<div class="jiaz">&nbsp;&nbsp;&nbsp;&nbsp;选购及了解</div>
+				<div class="jia1 jia">+</div>
 			</a>
-			<a href="">
-				<div>&nbsp;&nbsp;&nbsp;&nbsp;Apple Store 商店</div>
-				<div>+&nbsp;&nbsp;&nbsp;&nbsp;</div>
+			<div class="xg xg1">
+				<div>Mac</div>
+				<div>iPad</div>
+				<div>iPhone</div>
+				<div>Watch</div>
+				<div>Music</div>
+				<div>iTunes</div>
+				<div>iPod touch</div>
+				<div>配件</div>
+				<div>Apple Store 充值卡</div>
+			</div>
+			<a href="javascript:;" class="dianji1">
+				<div  class="jiaz">&nbsp;&nbsp;&nbsp;&nbsp;Apple Store 商店</div>
+				<div class="jia1 jia2">+</div>
 			</a>
-			<a href="">
-				<div>&nbsp;&nbsp;&nbsp;&nbsp;教育应用</div>
-				<div>+&nbsp;&nbsp;&nbsp;&nbsp;</div>
+			<div class="xg xg2">
+				<div>Mac</div>
+				<div>iPad</div>
+				<div>iPhone</div>
+				<div>Watch</div>
+				<div>Music</div>
+				<div>iTunes</div>
+				<div>iPod touch</div>
+				<div>配件</div>
+				<div>Apple Store 充值卡</div>
+				<div>配件</div>
+				<div>Apple Store 充值卡</div>
+			</div>
+			<a href="javascript:;" class="dianji2">
+				<div class="jiaz">&nbsp;&nbsp;&nbsp;&nbsp;教育应用</div>
+				<div class="jia1 jia3">+</div>
 			</a>
-			<a href="">
-				<div>&nbsp;&nbsp;&nbsp;&nbsp;商务应用</div>
-				<div>+&nbsp;&nbsp;&nbsp;&nbsp;</div>
+			<div class="xg xg3">
+				<div>Mac</div>
+				<div>iPad</div>
+			</div>
+			<a href="javascript:;" class="dianji3">
+				<div class="jiaz">&nbsp;&nbsp;&nbsp;&nbsp;商务应用</div>
+				<div class="jia1 jia4">+</div>
 			</a>
-			<a href="">
-				<div>&nbsp;&nbsp;&nbsp;&nbsp;账户</div>
-				<div>+&nbsp;&nbsp;&nbsp;&nbsp;</div>
+			<div class="xg xg4">
+				<div>Mac</div>
+				<div>iPad</div>
+			</div>
+			<a href="javascript:;" class="dianji4">
+				<div class="jiaz">&nbsp;&nbsp;&nbsp;&nbsp;账户</div>
+				<div class="jia1 jia5">+</div>
 			</a>
-			<a href="">
-				<div>&nbsp;&nbsp;&nbsp;&nbsp;Apple 价值观</div>
-				<div>+&nbsp;&nbsp;&nbsp;&nbsp;</div>
+			<div class="xg xg5">
+				<div>Mac</div>
+				<div>iPad</div>
+				<div>iPad</div>
+			</div>
+			<a href="javascript:;" class="dianji5">
+				<div class="jiaz">&nbsp;&nbsp;&nbsp;&nbsp;Apple 价值观</div>
+				<div class="jia1 jia6">+</div>
 			</a>
-			<a href="">
-				<div>&nbsp;&nbsp;&nbsp;&nbsp;关于 Apple</div>
-				<h1>+&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+			<div class="xg xg6">
+				<div>Mac</div>
+				<div>iPad</div>
+				<div>iPad</div>
+				<div>iPad</div>
+			</div>
+			<a href="javascript:;" class="dianji6">
+				<div class="jiaz">&nbsp;&nbsp;&nbsp;&nbsp;关于 Apple</div>
+				<h1 class="jia1 jia7">+</h1>
 			</a>
+			<div class="xg xg7">
+				<div>Mac</div>
+				<div>iPad</div>
+				<div>iPad</div>
+				<div>iPad</div>
+				<div>iPad</div>
+				<div>iPad</div>
+			</div>
 		</div>
 	</div>
 	<div class="zuidibuwenzi">
@@ -216,3 +268,35 @@
 	</div>
 </body>
 </html>
+<script>
+	$(function(){
+		$(".dianji").click(function(){
+            $(".xg1").toggle("");
+            $(".jia").toggleClass("xuanzhuan");
+		})
+		$(".dianji1").click(function(){
+            $(".xg2").toggle("");
+            $(".jia2").toggleClass("xuanzhuan");
+		})
+        $(".dianji2").click(function(){
+            $(".xg3").toggle("");
+            $(".jia3").toggleClass("xuanzhuan");
+        })
+        $(".dianji3").click(function(){
+            $(".xg4").toggle("");
+            $(".jia4").toggleClass("xuanzhuan");
+        })
+        $(".dianji4").click(function(){
+            $(".xg5").toggle("");
+            $(".jia5").toggleClass("xuanzhuan");
+        })
+        $(".dianji5").click(function(){
+            $(".xg6").toggle("");
+            $(".jia6").toggleClass("xuanzhuan");
+        })
+        $(".dianji6").click(function(){
+            $(".xg7").toggle("");
+            $(".jia7").toggleClass("xuanzhuan");
+        })
+	})
+</script>
